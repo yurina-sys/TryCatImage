@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F15CB1632740912300B0A1BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15CB1622740912300B0A1BA /* AppDelegate.swift */; };
+		F15CB1652740912300B0A1BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15CB1642740912300B0A1BA /* SceneDelegate.swift */; };
+		F15CB1672740912300B0A1BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15CB1662740912300B0A1BA /* ViewController.swift */; };
+		F15CB16A2740912300B0A1BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15CB1682740912300B0A1BA /* Main.storyboard */; };
+		F15CB16C2740912500B0A1BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F15CB16B2740912500B0A1BA /* Assets.xcassets */; };
+		F15CB16F2740912500B0A1BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F15CB16D2740912500B0A1BA /* LaunchScreen.storyboard */; };
+		F15CB17A2740912500B0A1BA /* TryCatImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15CB1792740912500B0A1BA /* TryCatImageTests.swift */; };
+		F15CB1852740912500B0A1BA /* TryCatImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F15CB1842740912500B0A1BA /* TryCatImageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F15CB1762740912500B0A1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15CB1572740912300B0A1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15CB15E2740912300B0A1BA;
+			remoteInfo = TryCatImage;
+		};
+		F15CB1812740912500B0A1BA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F15CB1572740912300B0A1BA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F15CB15E2740912300B0A1BA;
+			remoteInfo = TryCatImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F15CB15F2740912300B0A1BA /* TryCatImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TryCatImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15CB1622740912300B0A1BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F15CB1642740912300B0A1BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F15CB1662740912300B0A1BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F15CB1692740912300B0A1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F15CB16B2740912500B0A1BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F15CB16E2740912500B0A1BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F15CB1702740912500B0A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15CB1752740912500B0A1BA /* TryCatImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryCatImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15CB1792740912500B0A1BA /* TryCatImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCatImageTests.swift; sourceTree = "<group>"; };
+		F15CB17B2740912500B0A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F15CB1802740912500B0A1BA /* TryCatImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TryCatImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F15CB1842740912500B0A1BA /* TryCatImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryCatImageUITests.swift; sourceTree = "<group>"; };
+		F15CB1862740912500B0A1BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F15CB15C2740912300B0A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15CB1722740912500B0A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15CB17D2740912500B0A1BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F15CB1562740912300B0A1BA = {
+			isa = PBXGroup;
+			children = (
+				F15CB1612740912300B0A1BA /* TryCatImage */,
+				F15CB1782740912500B0A1BA /* TryCatImageTests */,
+				F15CB1832740912500B0A1BA /* TryCatImageUITests */,
+				F15CB1602740912300B0A1BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F15CB1602740912300B0A1BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F15CB15F2740912300B0A1BA /* TryCatImage.app */,
+				F15CB1752740912500B0A1BA /* TryCatImageTests.xctest */,
+				F15CB1802740912500B0A1BA /* TryCatImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F15CB1612740912300B0A1BA /* TryCatImage */ = {
+			isa = PBXGroup;
+			children = (
+				F15CB1622740912300B0A1BA /* AppDelegate.swift */,
+				F15CB1642740912300B0A1BA /* SceneDelegate.swift */,
+				F15CB1662740912300B0A1BA /* ViewController.swift */,
+				F15CB1682740912300B0A1BA /* Main.storyboard */,
+				F15CB16B2740912500B0A1BA /* Assets.xcassets */,
+				F15CB16D2740912500B0A1BA /* LaunchScreen.storyboard */,
+				F15CB1702740912500B0A1BA /* Info.plist */,
+			);
+			path = TryCatImage;
+			sourceTree = "<group>";
+		};
+		F15CB1782740912500B0A1BA /* TryCatImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				F15CB1792740912500B0A1BA /* TryCatImageTests.swift */,
+				F15CB17B2740912500B0A1BA /* Info.plist */,
+			);
+			path = TryCatImageTests;
+			sourceTree = "<group>";
+		};
+		F15CB1832740912500B0A1BA /* TryCatImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F15CB1842740912500B0A1BA /* TryCatImageUITests.swift */,
+				F15CB1862740912500B0A1BA /* Info.plist */,
+			);
+			path = TryCatImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F15CB15E2740912300B0A1BA /* TryCatImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15CB1892740912500B0A1BA /* Build configuration list for PBXNativeTarget "TryCatImage" */;
+			buildPhases = (
+				F15CB15B2740912300B0A1BA /* Sources */,
+				F15CB15C2740912300B0A1BA /* Frameworks */,
+				F15CB15D2740912300B0A1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TryCatImage;
+			productName = TryCatImage;
+			productReference = F15CB15F2740912300B0A1BA /* TryCatImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F15CB1742740912500B0A1BA /* TryCatImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15CB18C2740912500B0A1BA /* Build configuration list for PBXNativeTarget "TryCatImageTests" */;
+			buildPhases = (
+				F15CB1712740912500B0A1BA /* Sources */,
+				F15CB1722740912500B0A1BA /* Frameworks */,
+				F15CB1732740912500B0A1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15CB1772740912500B0A1BA /* PBXTargetDependency */,
+			);
+			name = TryCatImageTests;
+			productName = TryCatImageTests;
+			productReference = F15CB1752740912500B0A1BA /* TryCatImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F15CB17F2740912500B0A1BA /* TryCatImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F15CB18F2740912500B0A1BA /* Build configuration list for PBXNativeTarget "TryCatImageUITests" */;
+			buildPhases = (
+				F15CB17C2740912500B0A1BA /* Sources */,
+				F15CB17D2740912500B0A1BA /* Frameworks */,
+				F15CB17E2740912500B0A1BA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F15CB1822740912500B0A1BA /* PBXTargetDependency */,
+			);
+			name = TryCatImageUITests;
+			productName = TryCatImageUITests;
+			productReference = F15CB1802740912500B0A1BA /* TryCatImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F15CB1572740912300B0A1BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F15CB15E2740912300B0A1BA = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F15CB1742740912500B0A1BA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F15CB15E2740912300B0A1BA;
+					};
+					F15CB17F2740912500B0A1BA = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F15CB15E2740912300B0A1BA;
+					};
+				};
+			};
+			buildConfigurationList = F15CB15A2740912300B0A1BA /* Build configuration list for PBXProject "TryCatImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F15CB1562740912300B0A1BA;
+			productRefGroup = F15CB1602740912300B0A1BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F15CB15E2740912300B0A1BA /* TryCatImage */,
+				F15CB1742740912500B0A1BA /* TryCatImageTests */,
+				F15CB17F2740912500B0A1BA /* TryCatImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F15CB15D2740912300B0A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15CB16F2740912500B0A1BA /* LaunchScreen.storyboard in Resources */,
+				F15CB16C2740912500B0A1BA /* Assets.xcassets in Resources */,
+				F15CB16A2740912300B0A1BA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15CB1732740912500B0A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15CB17E2740912500B0A1BA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F15CB15B2740912300B0A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15CB1672740912300B0A1BA /* ViewController.swift in Sources */,
+				F15CB1632740912300B0A1BA /* AppDelegate.swift in Sources */,
+				F15CB1652740912300B0A1BA /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15CB1712740912500B0A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15CB17A2740912500B0A1BA /* TryCatImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F15CB17C2740912500B0A1BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15CB1852740912500B0A1BA /* TryCatImageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F15CB1772740912500B0A1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15CB15E2740912300B0A1BA /* TryCatImage */;
+			targetProxy = F15CB1762740912500B0A1BA /* PBXContainerItemProxy */;
+		};
+		F15CB1822740912500B0A1BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F15CB15E2740912300B0A1BA /* TryCatImage */;
+			targetProxy = F15CB1812740912500B0A1BA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F15CB1682740912300B0A1BA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15CB1692740912300B0A1BA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F15CB16D2740912500B0A1BA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F15CB16E2740912500B0A1BA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F15CB1872740912500B0A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F15CB1882740912500B0A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F15CB18A2740912500B0A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62W2LY3LD4;
+				INFOPLIST_FILE = TryCatImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.TryCatImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F15CB18B2740912500B0A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62W2LY3LD4;
+				INFOPLIST_FILE = TryCatImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.TryCatImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F15CB18D2740912500B0A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62W2LY3LD4;
+				INFOPLIST_FILE = TryCatImageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.TryCatImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryCatImage.app/TryCatImage";
+			};
+			name = Debug;
+		};
+		F15CB18E2740912500B0A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62W2LY3LD4;
+				INFOPLIST_FILE = TryCatImageTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.TryCatImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TryCatImage.app/TryCatImage";
+			};
+			name = Release;
+		};
+		F15CB1902740912500B0A1BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62W2LY3LD4;
+				INFOPLIST_FILE = TryCatImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.TryCatImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryCatImage;
+			};
+			name = Debug;
+		};
+		F15CB1912740912500B0A1BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 62W2LY3LD4;
+				INFOPLIST_FILE = TryCatImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Sample.TryCatImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TryCatImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F15CB15A2740912300B0A1BA /* Build configuration list for PBXProject "TryCatImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15CB1872740912500B0A1BA /* Debug */,
+				F15CB1882740912500B0A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15CB1892740912500B0A1BA /* Build configuration list for PBXNativeTarget "TryCatImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15CB18A2740912500B0A1BA /* Debug */,
+				F15CB18B2740912500B0A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15CB18C2740912500B0A1BA /* Build configuration list for PBXNativeTarget "TryCatImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15CB18D2740912500B0A1BA /* Debug */,
+				F15CB18E2740912500B0A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F15CB18F2740912500B0A1BA /* Build configuration list for PBXNativeTarget "TryCatImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F15CB1902740912500B0A1BA /* Debug */,
+				F15CB1912740912500B0A1BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F15CB1572740912300B0A1BA /* Project object */;
+}
