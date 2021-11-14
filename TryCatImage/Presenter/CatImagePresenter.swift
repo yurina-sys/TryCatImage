@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+class CatImagePresenter {
+    private let model = CatImageModel()
+    
+    func pushCatGetButton() -> String {
+        return self.model.getCatURL()
+    }
+    
+}

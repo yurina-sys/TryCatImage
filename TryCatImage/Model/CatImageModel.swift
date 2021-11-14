@@ -6,3 +6,18 @@
 //
 
 import Foundation
+
+class CatImageModel {
+    
+    func getCatURL() -> String {
+        
+        // API叩く
+        
+        
+        
+        
+        return String()
+    }
+    
+    
+}

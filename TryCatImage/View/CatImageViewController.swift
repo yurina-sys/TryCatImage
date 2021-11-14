@@ -8,12 +8,18 @@
 import UIKit
 
 class CatImageViewController: UIViewController {
+    
+    private let presenter = CatImagePresenter()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
+    
+    
 
-
+    @IBAction func pushCatGetButton(_ sender: Any) {
+        self.presenter.pushCatGetButton()
+    }
+    
 }
 
