@@ -28,10 +28,10 @@ class CatImageModel {
                 let decoder = JSONDecoder()
                 let catImage = try decoder.decode(CatImage.self, from: data)
                 // 結果を表示
-                print("url: \(catImage.url)")
+                print("url: \(catImage)")
                 print("age: \(catImage.id)")
             } catch {
-                
+//                print(error.description)
             }
         }
         task.resume()
